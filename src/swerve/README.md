@@ -1,0 +1,3 @@
+# Introduction
+
+A swerve drive is a special type of drivetrain used in FRC (FIRST Robotics Competition). It allows each individual wheel to be powered and turned independent from the other wheels, giving it unparalleled maneuverability on the field thats why its important to know how to implement it, how swerve drive works is it takes the x and y input from a controller in software terms its a `Joystick` then it will calulate the motor angles and power using trig after the values are calulated, then you normalize the motor powers using if `angle > max` then `max = angle`, and you repeat `max = angle` for every motor.
